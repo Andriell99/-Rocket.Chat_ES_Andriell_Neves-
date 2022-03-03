@@ -1,0 +1,10 @@
+Documentação sobre passos até realizar o projeto
+
+Primeiramente tive que configurar uma maquina linux para poder ser o server da nossa aplicação Rocket, utilizei o Ubuntu (que é oque tenho mais familiaridade), para não ter necessidade de realizar um dualboot, fiz a instalação de uma Vm (Virtual Box) e configurei o Ubuntu nela, essa parte é tranquila pois é algo que já fazia com frequencia em experiencias anteriores, alem do fato do Ubuntu ter mais ferramentas, pacotes e atualizações disponiveis, facilitando muito o trabalho para realizar a montagem de qualquer serviço baseado em linux.
+
+O segundo passo foi configurar o servidor Rocket, eu fiz a instalação do mesmo por meio do Snap(Snappy) que é um sistema de implantação de software da propria ubuntu, esse sistemas permite a instalação de pacotes dentro do linux de uma maneira muito mais usual, reduzindo bastante no tempo de instalação e aumentando o tempo habil em que uma aplicação fica disponivel para acesso, o mesmo tem uma sintaxe muito simples e intuitiva e funciona basicamente com todos os pacotes que podem ser instalados no linux.
+
+Depois de feita a instalação do servidor e do Servidor Rocket, a duvida era como compartilhar a Url de acesso, nesse caso eu utilizei o Ngrok, ele é basicamente um terminal que nos permite acessar urls locais de maneira natural, pela rede, fiz a instalação do mesmo com os packges do Npm, e sua operação via Npx (vale mencionar que o Ngrok, pode proporcionar tanto conexões http, quanto https), o Ngrok pode ser operado sem o Npx tambem, diretamente por sua sintaxe, e sua configuração é muito simples, basta fazer a instalação e o direcionamento do mesmo para o tipo de conexão e porta o local que se deseja compartilhar, depois disso realizar a autenticação via Token, isso fara com que voce consiga manter o serviço sempre ativo.
+
+
+

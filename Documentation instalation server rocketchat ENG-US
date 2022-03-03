@@ -1,0 +1,8 @@
+Documentation on steps to carry out the project
+
+First I had to configure a linux machine to be the server for our Rocket application, I used Ubuntu (which is what I'm more familiar with), so I don't have to dualboot, I installed a Vm (Virtual Box) and configured Ubuntu in it, this part is easy because it's something I already did often in previous experiences, in addition to the fact that Ubuntu has more tools, packages and updates available, making it much easier to assemble any service based on linux.
+
+The second step was to configure the Rocket server, I installed it through Snap(Snappy) which is a software deployment system from ubuntu itself, this system allows the installation of packages within linux in a much more usual way , greatly reducing installation time and increasing the time an application is available for access, it has a very simple and intuitive syntax and works basically with all packages that can be installed on linux.
+
+After installing the server and the Rocket Server, the question was how to share the access Url, in this case I used Ngrok, it is basically a terminal that allows us to access local urls in a natural way, through the network, I did the installation the same with the Npm packges, and its operation via Npx (it is worth mentioning that Ngrok, can provide both http and https connections), Ngrok can be operation without Npx too, directly by its syntax, and its configuration is very simple, just install and direct it to the type of connection and port the location you want to share, after that perform authentication via Token, this will make you able to keep the service always active.
+
